@@ -32,6 +32,30 @@ main{
     font-weight: bold;
     display: flex;
     justify-content: center;
-    
-    
+       
+}
+main p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.input-welcome{
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+}
+.button-ok{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: 2px solid blue;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
