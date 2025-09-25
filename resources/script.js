@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
         //declaramos una variable que represente al input
         var nombreGato = document.getElementById('input-name');
         //mostrtamos una alerta con el valor del input
-        alert('El nombre de tu gato es: ' + nombreGato.value);
+        alert('El nombre de tu gato es: ' + nombreGato.value);  
+        console.log('El nombre de tu gato es: ' + nombreGato.value);
+        console.error('errrrrrorrrr');
     });
 });
